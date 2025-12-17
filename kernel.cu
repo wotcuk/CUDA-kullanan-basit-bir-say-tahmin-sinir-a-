@@ -213,7 +213,7 @@
 			cout << "Exe dosyasini dogrudan acmayiniz cmd ye cd (dosanin bulundugu konum) yazip enter dedikten sonra Kullanim de belirtilen sekilde parametreleri giriniz." << endl;
 			cout << "Eksik parametre girdiniz!" << endl;
 			cout << "Kullanim: program.exe <DosyaAdi.bmp> <Mod(1=Egitim, 2=Test)>" << endl;
-			cout << R"(Orn: cd C:\Users\ahmet\OneDrive\Masaustu\)" << endl;
+			cout << R"(Orn: cd C:\Users\Masaustu\)" << endl;
 			cout << "Cuda.exe gorsel.bmp 2"<< endl;
 			system("pause");
 			return 0;
@@ -584,4 +584,5 @@
 		CUDA_CHECK(cudaGetLastError());
 		CUDA_CHECK(cudaDeviceSynchronize());
 		system("pause");
+
 	}
